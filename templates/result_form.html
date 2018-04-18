@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,4 +12,25 @@
 <a href={{ url }}>http://url-{{ url_key }} </a>
 <br>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+</head>
+<body>
+<h1>Welcome to URL shortener</h1>
+
+{#{% for l in lines %}#}
+{#    <h3>{{ l }}</h3>#}
+{#{% endfor %}#}
+<h4>{{ url_key }}</h4>
+<h5>{{ url }}</h5>
+<br>
+<a href={{ url }}>http://myURLShortener/{{ url_key }} </a>
+<br>
+<h6>{{ q }}</h6>
+</body>
+>>>>>>> fa13882278101fb44a8967b7105c029924a3dfb7
 </html>

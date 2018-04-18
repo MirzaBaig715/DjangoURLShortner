@@ -20,5 +20,9 @@ from urlshortenerapp import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^search/$',views.search_url),
+<<<<<<< HEAD
     url(r'^result/$',views.display_url, name='result'),
+=======
+    url(r'^result/$',views.display_url),
+>>>>>>> fa13882278101fb44a8967b7105c029924a3dfb7
 ]

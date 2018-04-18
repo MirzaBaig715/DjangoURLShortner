@@ -37,8 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+<<<<<<< HEAD
     'urlshortenerapp',
     'scripts',
+=======
+    'urlshortenerapp'
+>>>>>>> fa13882278101fb44a8967b7105c029924a3dfb7
 ]
 
 MIDDLEWARE = [
